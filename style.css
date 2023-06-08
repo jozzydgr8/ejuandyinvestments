@@ -1,0 +1,236 @@
+#more {display: none;}
+
+.background{
+    background-image: url("plain-smooth-red-wall-texture.jpg");
+    color: white;
+}
+   
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+
+.border{
+    border: solid 5px black;
+}
+
+
+.container-fluid{
+    padding: 7% 10%;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    padding: 5px 0;
+}
+
+.hover{
+    cursor: pointer;
+}
+
+
+
+.left-align{
+    text-align: left;
+}
+.list-none{
+    list-style: none;
+}
+.no-decoration{
+    text-decoration: none;
+    
+}
+
+.monserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.right-align{
+    text-align: right;
+}
+
+.sacramento{
+    font-family: 'Sacramento', cursive;
+
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
+.video{
+    max-width: 100%;
+    height: auto; 
+}
+
+/* tags***** */
+
+
+/* ***first-section***** */
+
+.navbar {
+    padding: 0 0 3.0rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: white;
+
+}
+.navbar-nav{
+    padding: 0 80px 0 0;
+}
+.ejuandy-logo{
+width: 120px;
+height: 50px;
+}
+.title-text{
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+
+@media (max-width : 950px) {
+    .nav-link{
+        font-size: 0.8rem;
+    }
+    .ejuandy-logo{
+        width: 80px;
+        height: 38px;
+    }
+    .title-text {font-size: 2.0rem;
+    font-weight: 200;}
+    .navbar-nav{
+        padding: 0 0 0 0;
+    }
+    
+
+}
+@media (max-width : 450px){
+    .title-text{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .ejuandy-logo{
+        width: 70px;
+        height: 33px;
+    }
+    .navbar-nav{
+        padding: 0 0 0 0;
+    }
+}
+
+/* ******first-section-end****** */
+
+
+
+/* ********second-section******* */
+
+.second-section-about-text{
+    font-size: larger;
+}
+.second-section-list{
+    list-style: circle;
+}
+.second-section-span{
+    font-size: large;
+}
+ 
+    
+ 
+/* *******second-section-end***** */
+
+
+
+
+/* *******third-section******** */
+.third-section-button{
+    margin: 3% 0 1% 0;
+}
+#third-section .container-fluid{
+    padding: 5% 5%;
+}
+.third-section-link{
+    color: white;
+}
+.third-section-text{
+    margin: 0 0 2% 0;
+}
+@media (max-width: 900px) {
+    .youtube-videos{
+        display: none;
+    }
+}
+
+/* ****third-section-end****** */
+
+
+
+
+
+
+/* ***fourth-section***** */
+.testimonials{
+    padding: 0px 100px;
+}
+
+@media  (min-width: 600px) and (max-width : 900px) {
+    .testimonials{
+        font-size: 1.5rem;
+        padding: 0px 80px;
+    }
+}
+@media (max-width : 600px){
+    .testimonials{
+        font-size: 0.5rem;
+        padding: 0px 60px;
+    }
+}
+
+@media (max-width : 700px) {
+    .fourth-section-text{
+        font-size: 0.5rem;
+    }
+}
+@media (min-width : 700px) and (max-width : 900px) {
+    .fourth-section-text{
+        font-size: 1.0rem;
+    }
+
+}
+@media (max-width : 400px){
+    .fourth-section-text{
+        font-size: 0.4rem;
+    }
+}
+
+
+/* *****fourth-secttion-end***** */
+
+
+/* ******fifth-section****** */
+.fifth-section-button{
+    margin-right: 80%;
+    margin-bottom: 5%;
+}
+ 
+@media (max-width : 650px) {
+    .fifth-section-text{
+        font-size: 1.0rem;
+    }
+    
+}
+
+
+/* **********sixth-section******* */
+#sixth-section .container-fluid{
+    padding: 3% 5%;
+}
+.sixth-section-link{
+    color: black;
+    text-decoration: none;
+}
+
